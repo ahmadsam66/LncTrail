@@ -137,7 +137,7 @@ lnctrail --help
 
 This registers the `lnctrail` command. The repository can also be run directly with `python lnctrail.py`.
 
-### Clone after publishing to GitHub
+### Running via git clone 
 
 Once the intended repository has been created at `ahmadsam66/LncTrail`:
 
@@ -147,18 +147,6 @@ cd LncTrail
 python3 lnctrail.py --help
 ```
 
-To upload this project to a new GitHub repository from the project folder:
-
-```bash
-git init
-git add .
-git commit -m "Release LncTrail v0.2.3"
-git branch -M main
-git remote add origin https://github.com/ahmadsam66/LncTrail.git
-git push -u origin main
-```
-
-If you already created the remote repository or have a local Git history, do not repeat `git init` or `git remote add`; follow the workflow appropriate to that existing repository.
 
 ## Input files
 
