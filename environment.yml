@@ -1,0 +1,7 @@
+name: lnctrail
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.10,<3.14
+  - intarna>=3.3

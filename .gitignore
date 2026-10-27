@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+results/
+results_*/
+lnctrail_results/
+demo_output/
+*.tmp

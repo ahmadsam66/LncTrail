@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lnctrail"
+version = "0.2.3"
+description = "Reproducible lncRNA–transcript RNA-RNA interaction candidate discovery"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "LncTrail contributors"}]
+keywords = ["lncRNA", "RNA-RNA interaction", "bioinformatics", "transcriptomics"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = []
+
+[project.scripts]
+lnctrail = "lnctrail:main"
+
+[tool.setuptools]
+py-modules = ["lnctrail"]
