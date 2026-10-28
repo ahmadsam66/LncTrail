@@ -10,7 +10,6 @@
 
 - **Developer:** [Seyed Ahmad Mousavi (@ahmadsam66)](https://github.com/ahmadsam66)
 - **GitHub profile:** <https://github.com/ahmadsam66>
-- **Related project:** [TEMPO — Transcriptomic Expression Modeling Pipeline for Omics](https://github.com/ahmadsam66/tempo)
 - **Intended repository URL:** <https://github.com/ahmadsam66/LncTrail>
 
 The LncTrail repository URL above is the intended publishing destination. If it does not exist yet, create a public repository named **LncTrail** under `ahmadsam66`, then upload or push the contents of this project folder.
